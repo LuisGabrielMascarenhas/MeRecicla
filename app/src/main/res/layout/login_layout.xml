@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#e9ffbd"
+    android:background="#E7FFC1"
     android:layout_gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".LoginActivity">
@@ -22,7 +22,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
-        app:boxBackgroundColor="#D1F687"
         android:textColorHint="@color/black"
         android:layout_margin="5dp"
         app:endIconMode="clear_text"
@@ -32,6 +31,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#D1F687"
+            android:background="@drawable/redondo"
             android:hint="  Insira seu e-mail"
             android:inputType="textEmailAddress"
             android:drawableStart="@drawable/baseline_person"
@@ -51,6 +52,8 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
+            android:background="@drawable/redondo"
+            android:backgroundTint="#D1F687"
             android:layout_height="wrap_content"
             android:hint="  Insira sua senha"
             android:inputType="textPassword"
@@ -128,7 +131,7 @@
             android:gravity="center"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:text=" Cadastre-se Aqui" />
+            android:text=" Cadastre-se" />
 
     </LinearLayout>
 

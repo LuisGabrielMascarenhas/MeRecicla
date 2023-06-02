@@ -25,7 +25,7 @@
         android:textSize="40sp" />
     <TextView
         android:layout_width="wrap_content"
-        android:fontFamily="@font/quicksandbold"
+    android:fontFamily="@font/quicksandbold"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:text="Reduze Reutilize e Recicle "/>
